@@ -17,7 +17,7 @@
     <el-menu-item index="info" v-if="getRole == 'admin'">信息管理</el-menu-item>
     <el-menu-item index="score" v-if="getRole == 'student' || getRole == 'teacher'">成绩管理</el-menu-item>
     <el-menu-item index="select" v-if="getRole == 'student' || getRole == 'teacher'">选课管理</el-menu-item>
-    <el-menu-item index="teach" v-if="getRole == 'student' || getRole == 'teacher'">评教管理</el-menu-item>
+    <el-menu-item index="teach" v-if="getRole == 'student'">评教管理</el-menu-item>
     <el-menu-item index="set">设置</el-menu-item>
     <span
       style="float: right; margin-right:50px; height: 60px; line-height: 60px; color: #FFFFFF; font-size: 14px; outline: none;"
